@@ -1,4 +1,4 @@
-# time-convector
+# 📅 time-convector
 
 The time-convector library provides utility functions for converting time between human-readable format and milliseconds.
 
