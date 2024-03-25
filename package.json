@@ -1,0 +1,29 @@
+{
+  "name": "time-convector",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "build/time-format.cjs.js",
+  "module": "build/time-format.esm.js",
+  "browser": "build/time-format.umd.js",
+  "types": "types/time-format.d.ts",
+  "files": [
+    "build",
+    "types",
+    "README.md"
+  ],
+  "description": "time convector to unix timestamp and human readable",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "unix timestamp",
+    "time convector",
+    "human readable time"
+  ],
+  "author": "melonges",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^4.13.0"
+  }
+}
