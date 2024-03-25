@@ -24,11 +24,11 @@ convertToMilliseconds('44M'); // Output: 114048000000
 convertToReadableFormat(convertToMilliseconds('44M')); // Output: 3Y 8M 23h
 ```
 
-## convertToReadableFormat(milliseconds)
+### `convertToReadableFormat(milliseconds)`
 
 This function takes a time duration in milliseconds as input and returns a human-readable format representing years, months, days, hours, minutes, and seconds.
 
-## convertToMilliseconds(timeString)
+### `convertToMilliseconds(timeString)`
 
 This function takes a human-readable time duration string as input and returns the equivalent duration in milliseconds.
 The string should be in the format of <number><unit>, where the unit can be 'Y' for years, 'M' for months, 'D' for days, 'h' for hours, 'm' for minutes, and 's' for seconds.
