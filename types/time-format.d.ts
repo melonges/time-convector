@@ -6,7 +6,7 @@ declare module "time-convector" {
    * @example
    * convertToMilliseconds('3D 2h 5s'); // returns 266405000
    */
-  export function convertToMilliseconds(str?: string): number;
+  export function convertToMs(str?: string): number;
   /**
    * The string should be in the format of where the unit can be:
    * 'Y' for years,

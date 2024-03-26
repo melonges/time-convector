@@ -1,2 +1,2 @@
-export {convertToMilliseconds} from "./convertToMilliseconds"
-export {convertToReadableFormat} from "./convertToReadableFormat"
+export { convertToMs } from "./convertToMilliseconds";
+export { convertToHumanReadable } from "./convertToReadableFormat";

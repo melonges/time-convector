@@ -1,5 +1,5 @@
 import { keysDels } from "./internal.js";
-export function convertToReadableFormat(time) {
+export function convertToHumanReadable(time) {
   const object = {
     s: ((time * keysDels.s) | 0) % 60,
     m: ((time * keysDels.m) | 0) % 60,

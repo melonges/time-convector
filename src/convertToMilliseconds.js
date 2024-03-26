@@ -2,7 +2,7 @@ import { keysValues } from "./internal";
 
 const regExp = /(\d+(\.\d+)?)\s*(s|m|h|D|M|Y)/;
 
-export function convertToMilliseconds(str = "") {
+export function convertToMs(str = "") {
   let sum = 0;
 
   let array = null;
